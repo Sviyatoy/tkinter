@@ -8,7 +8,7 @@ def processing(inn: int) -> None:
     if company := ParserSerivce.get_company(inn):
         DataBaseSerivce.append_company(company)
     else:
-        print(inn, 'missed')
+        print(inn, 'ошибка')
 
 
 def main():

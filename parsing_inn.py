@@ -18,7 +18,7 @@ def main():
         while True:
             try:
                 processing(inn)
-                print(inn, 'Выполнено')
+                print(inn, 'Complect')
                 time.sleep(2)
                 break
             except Exception as ex:

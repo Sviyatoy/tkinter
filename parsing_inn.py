@@ -19,6 +19,7 @@ def main():
             try:
                 processing(inn)
                 print(inn, 'Complect')
+                print('Готово')
                 time.sleep(2)
                 break
             except Exception as ex:

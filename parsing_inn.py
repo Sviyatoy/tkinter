@@ -9,6 +9,7 @@ def processing(inn: int) -> None:
         DataBaseSerivce.append_company(company)
     else:
         print(inn, 'ошибка')
+        print('добавка')
 
 
 def main():

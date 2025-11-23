@@ -20,6 +20,7 @@ def main():
                 processing(inn)
                 print(inn, 'Complect')
                 print('Готово')
+                print('Готово 2')
                 time.sleep(2)
                 break
             except Exception as ex:

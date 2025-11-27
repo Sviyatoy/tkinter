@@ -41,7 +41,7 @@ class Child(tk.Toplevel):
         super().__init__(root)
         self.init_child()
     def init_child(self):
-        self.title('Добавить доходы/расходы')
+        self.title('Вставить доходы/расходы')
         self.geometry('400x200+400+300')
         self.resizable(False, False)
 
